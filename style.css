@@ -213,6 +213,14 @@
     padding-left: 15px;
   }
 
+.main::after,
+.container-main::after
+{
+  content: "";
+  display: block;
+  clear: both;
+}
+
   .side-menu {
     background-color: #fff;
   }
