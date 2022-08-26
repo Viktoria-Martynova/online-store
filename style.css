@@ -44,6 +44,9 @@
   .col-6 {
     width: 50%;
   }
+  .col-9 {
+    width: 75%;
+  }
   .col-12 {
     width: 100%;
     position: relative;
@@ -198,4 +201,18 @@
     top: 0;
     right: 0;
   }
-  
+
+.main {
+  width: 100%;
+}
+
+  .container-main {
+    width: 1200px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .side-menu {
+    background-color: #fff;
+  }
