@@ -120,6 +120,11 @@
     height: 40px;
     margin: 5px;
   }
+
+  .search input {
+    padding-left: 10px;
+  }
+
   input[type="search"] {
     border: none;
     outline: none;
