@@ -251,6 +251,11 @@
   clear: both;
 }
 
+.product-image {
+  position: relative;
+  z-index: 20;
+}
+
   .side-menu {
     background-color: #fff;
   }
