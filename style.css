@@ -274,12 +274,30 @@
   top: 5px;
   right: 10px;
   border: 1px solid #2c71b8;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.zoom:hover {
+  background-color: #2c71b8;
+  
+
 }
 
 .like {
   position: absolute;
   top: 45px;
   right: 10px;
+  border: 1px solid #2c71b8;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
   .side-menu {
