@@ -282,10 +282,18 @@
 
 }
 
+.zoom img:last-child {
+  display: none;  
+}
+
 .zoom:hover {
   background-color: #2c71b8;
-  
-
+}
+.zoom:hover img:first-child {
+  display: none;  
+}
+.zoom:hover img:last-child {
+  display: block;  
 }
 
 .like {
@@ -298,6 +306,26 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.like img:last-child {
+  display: none;  
+}
+
+.like:hover {
+  background-color: #2c71b8;
+}
+.like:hover img:first-child {
+  display: none;  
+}
+.like:hover img:last-child {
+  display: block;  
+}
+
+.product-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
 }
 
   .side-menu {
