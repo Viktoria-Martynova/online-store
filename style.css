@@ -254,6 +254,7 @@
 .product {
   position: relative;
   border: 1px solid #fff;
+  margin-bottom: 30px;
 }
 
 .product-image {
@@ -367,8 +368,7 @@
 }
 
 .addToCart {
-  background-color: #fff;
-  opacity: 25%;
+  background-color: rgba(255, 255, 255, 0.25);
   height: 50px;
   width: 200px;
   color: #fff;
@@ -377,6 +377,10 @@
   border: 1px solid #fff;
   margin-top: 20px;
   margin-bottom: 30px;
+}
+
+.addToCart > img {
+  margin-left: 5px;
 }
 
 .buttons {
