@@ -251,6 +251,10 @@
   clear: both;
 }
 
+.breadcrumbs {
+  margin-top: 30px;
+}
+
 ul.breadcrumbs li {
   display: inline;
   font-size: 14px;
@@ -268,6 +272,14 @@ ul.breadcrumbs li a {
 
 ul.breadcrumbs li:not(:last-child) a {
   text-decoration: none;
+}
+
+.laptopAndTablets {
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 60px;
 }
 
 .product {
