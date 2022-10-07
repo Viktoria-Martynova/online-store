@@ -251,6 +251,25 @@
   clear: both;
 }
 
+ul.breadcrumbs li {
+  display: inline;
+  font-size: 14px;
+}
+
+ul.breadcrumbs li+li:before {
+  padding: 7px;
+  color: rgba(255, 255, 255, 0.5);
+  content: "\003E";
+}
+
+ul.breadcrumbs li a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+ul.breadcrumbs li:not(:last-child) a {
+  text-decoration: none;
+}
+
 .product {
   position: relative;
   border: 1px solid #fff;
